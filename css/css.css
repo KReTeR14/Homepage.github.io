@@ -12,7 +12,7 @@ body{
     line-height: 1;
     margin: 0%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: powderblue;
+    background-color: #c5cbe3;
 }
 header.bodyback{
     background-color: #2f2fa2;
@@ -21,7 +21,6 @@ img.thumbnail2{
     width: 70%;
     border-radius: 30px;
 }
-
 
 label{
     font-size: 35px;
@@ -47,22 +46,17 @@ h1{
 
 img.thumbnail{
 border-radius: 20px;
-width:80%;
-height: 70%;
+width:65%;
 
 }
 
-table{
-    border-color: #2f2fa2;
-    border-style:solid;
-    border-width: 10px;
-}
+
 
 
 nav{
     width :"100%";
     margin: 0;
-    background-color:powderblue;
+    background-color:#d79922;
 
 
 }
@@ -123,7 +117,7 @@ ul.topnavbar li a:hover{
     border-radius: 5px;
 }
 header.header {
-    background-color: powderblue;
+    background-color: #d79922;
 }
 button{
     background-color:black;
@@ -186,8 +180,8 @@ h1.section2-header{
     text-transform: uppercase;
 }
 h1.section2-header:hover{
-    background-color:powderblue;
-    color: tomato;
+    background-color:black;
+    color: lime;
 }
 
 body.button h1.section2-header{
@@ -206,7 +200,16 @@ body.button h1.section2-header{
 body.button p{
     color: powderblue;
 }
+table.gamestable{
+    border-color: #2f2fa2;
+}
+table.gamestable tr.moretable{
+    border:0;
+    padding:none;
+    
+    border-color:#c5cbe3;
 
+}
 
 form fieldset button {
     background-color: salmon;
@@ -223,7 +226,7 @@ form{
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0px;
   }
   
   /* Track */
@@ -234,7 +237,7 @@ form{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background:#242582; 
+    background:#2f2fa2; 
     
   }
   
@@ -281,9 +284,9 @@ form{
     
   }
   table.gamestable tr td {
-      border-color: #2f2fa2;
       width: 15%;
      padding: 40px;
+     margin-left: 10px;
      
 
   }
@@ -291,10 +294,18 @@ form{
     width: 140px;
     height: 140px;
 }
+table.booktable{
+    border-color: #2f2fa2;
+}
 table.gamestable tr td p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 table.booktable tr td p{
     font-family:'Courier New', Courier, monospace;
+}
+table.totop{
+    background-color: #2f2fa2;
+    padding-right: 46%;
+    padding-left: 46%;
 }
