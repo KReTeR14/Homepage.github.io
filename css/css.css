@@ -1,3 +1,4 @@
+
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
 .col-3{width: 25%;}
@@ -11,6 +12,20 @@
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
 
+@media(max-width:500px){
+    .gamestable,tr,td{
+        display:contents;
+        width: 100%;
+        margin-left: 50px;
+        
+        
+    }
+    .gamestable tr td div.content{
+        display:inline;
+        align-content: right;
+    }
+    
+}
 
 nav,
 header,
@@ -27,6 +42,10 @@ body{
     margin: 0%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #c5cbe3;
+}
+table{
+    width: 100%;
+    
 }
 header.bodyback{
     background-color: #2f2fa2;
