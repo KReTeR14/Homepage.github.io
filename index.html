@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head><title>1st Webstie</title></head>
+    <head><title>1st Webstie</title>
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
     <style>
@@ -18,10 +18,14 @@
         }
         
     </style>
+            <script src="https://kit.fontawesome.com/83a0b9fea3.js" crossorigin="anonymous"></script>
+
+    </head>
     <!--peachpuff-->
     <body bgcolor=#c5cbe3 >
-     
-    <div class="col-12">    
+    <script src="app.js"></script>
+    <div class="col-12">   
+        
         <header class="header">
             <nav>
             <ul class="topnavbar" id="dropdownclick">
@@ -29,22 +33,20 @@
      
            
           
-           <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a> </li>
+           <li class="dropdownicon"><a><i class="fas fa-bars"></i></a> 
            
            
-           <li><a href=""><b>Top Rated</b></a></li>
-           <li><a href=""><b>Featured &#11206;</b></a>
+           
+           
                 <ul class="list">
-                    <li><a href="#game"><b>games</b></a></li>
-                    <li><a href="#music"><b>Music</b></a></li>
-                    <li><a href="#ebook"><b>e-books</b></a></li>
+                    <li> <a href="#dropdownclick"><i class="fas fa-home"></i></a></li>
+                    <li><a href="#game"><i class="fas fa-gamepad"></i></a></li>
+                    <li><a href="#music"><i class="fas fa-music"></i></a></li>
+                    <li><a href="#ebook"><i class="fas fa-book"></i></a></li>
                 </ul>
             </li>
 
-           <li><a href=""><b>Upcomming</b></a></li>
            
-           <li><a href="#help"><b>Help</b></a></li>
-
            <li class="topnavbar-right"><a href="signup.html">Sign Up</a></li>
          
            
@@ -53,12 +55,11 @@
         </ul>
         
         
-        <h3 align="center" class="input"><input class="main_input"type="text" name="search" value=""><button class="find">&#x1F50D;</button></h3>
         
-
-
-       </nav>
-       
+        
+        
+    </nav>
+    <h3 align="center" class="input"><button class="find">&#x1F50D;</button><input class="main_input"type="text" name="search"></h3>
 
        
        
@@ -79,12 +80,14 @@
     <!--APP 1-->
    
     
-   <table class="gamestable" border="5"cellpadding="40"  >
+   <table class="gamestable" border="7"cellpadding="40"  >
        <tr>
            <td><a href="https://play.google.com/store/apps/details?id=com.pubg.newstate&hl=en_IN&gl=US"target="_blank"></a><img src="main_page_images/app1logo.jpg" alt="Pubg NewState" width="100px" height="100px">
+            <div class="content">
+
             <p><b><big>Pubg New State</big></b><br>
             <sup>Krafton,  4.0 	&#8902;, 16<sup>+</sup></sup><br><a style="color: white; text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.pubg.newstate&hl=en_IN&gl=US"target="_blank"><button>Install</button></a></p><br></td>
-         
+            </div>
             <!--APP 1-->
         
             <!--APP 2-->
@@ -122,7 +125,7 @@
     
 
    <header><h1 id="music" class="section2-header" >Music</h1></header>
-<table class="gamestable" border="5" cellpadding="50">
+<table class="gamestable" border="7" cellpadding="50">
     <tr>
         <td>
             <img src="main_page_images/app4logo.png" alt="Spotify" width="100px" height="100px">
@@ -168,7 +171,7 @@
         
       
    <header><h1 id="ebook" class="section2-header" > E-Book</h1></header> 
-        <table class="booktable" border="5"  cellpadding="50">
+        <table class="booktable" border="7"  cellpadding="50" >
             <tr>
                 <td width="3%"><img src="main_page_images/app6.jpg" alt="Rich Dad Poor Dad"width="150"height="170">
                     <p><b><big>Rich Dad Poor Dad</big></b><br>
@@ -229,15 +232,7 @@
         </table>
 
 
-        <table class="totop" align="center">
-            <tr >
-                <td colspan="4">
-            <a href="#dropdownclick"><button class="btt">Back To Top</button></a>
-            
-                </td>
-            </tr>
-        </table>
-        
+       
 
 
     </body>
