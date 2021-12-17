@@ -89,7 +89,8 @@ width:65%;
 
 
 nav{
-    background-color:#c5cbe3;
+    background-color:#2f2fa2;
+    
     width: 100%;
     border-radius: 3px;
     
@@ -104,12 +105,9 @@ nav{
   font-size: 20px;
 }
 
-.fa-bars:hover{
-    background-color: black;
-    font-size: 22px;
-}    
+   
 nav ul{
-  
+    
    overflow: hidden;
    margin: 0;
    padding: 0;
@@ -118,14 +116,17 @@ nav ul{
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
  }
 nav ul li{
+    
     position: relative;
     list-style:none;
     display: inline-block;
 }
+
 nav ul li a{
     display: block;
 }
 nav ul ul{
+    
    
     top: 60px;
     display: none;
@@ -140,7 +141,7 @@ nav ul li.dropdownicon{
 
 nav ul li:hover>ul{
     display:block;
-    background-color:#c5cbe3;
+    background-color:#2f2fa2;
     border-radius: 5px;
     
 }
@@ -154,6 +155,7 @@ nav ul li.topnavbar-right{
 
     }
 ul.topnavbar li a{
+    
     text-decoration: none;
     min-height: 16px;
     padding: 15px;
@@ -162,16 +164,18 @@ ul.topnavbar li a{
     display: block;
     font-weight: 800;
 }
-
+ul.topnavbar li a{
+    color: white;
+}
 ul.topnavbar li a:hover{
-    background-color: black;
+    background-color:black;
     color:white;
     font-size: 16px;
     font-weight: bolder;
     border-radius: 05px;
 }
 header.header {
-    background-color:orangered;
+    background-color:#2f2fa2;
 }
 button{
     background-color:black;
@@ -337,8 +341,9 @@ form{
       width: 15%;
      padding: 40px;
      margin-left: 10px;
+     
   }
-  table.bootable tr td {
+  table.booktable tr td {
     width: 15%;
    padding: 40px;
    margin-left: 10px;}
@@ -347,13 +352,11 @@ form{
     width: 140px;
     height: 140px;
 }
-table.booktable tr td img{
-    width: 140px;
-    height: 140px;
-}
+
 
 table.booktable{
     border-color: #2f2fa2;
+    ;
 }
 table.gamestable tr td p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
